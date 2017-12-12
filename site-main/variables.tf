@@ -10,6 +10,7 @@ variable environment {
 }
 
 variable domain {}
+variable domain_alternate {}
 
 variable bucket_name {
   description = "The name of the S3 bucket to create."
